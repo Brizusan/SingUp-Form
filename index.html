@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./css/index.css">
+    
+    
+  </head>
+  <body>
+    <main class="signup">
+      <div class="wrapper">
+        <section class="signup__content">
+          <h1 class="signup__title">Learn to code by watching others</h1>
+          <p class="signup__paragraph">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think is
+            invaluable.
+          </p>
+        </section>
+        <section class="signup__forms">
+          <div class="offer">
+            <p class="offer__text">
+              <span class="offer__text-m">Try it free 7 days</span> then $20/mo.
+              thereafter
+            </p>
+          </div>
+          <form class="form" id="form">
+            <div class="form__input">
+              <input id="firstname" type="text" placeholder="First Name" />
+              <img src="images/icon-error.svg" alt="icon-error">
+              <small class="warning">mensaje</small>
+            </div>
+            <div class="form__input">
+              <input id="lastname" type="text" placeholder="Last Name " />
+              <img src="images/icon-error.svg" alt="icon-error">
+              <small class="warning">mensaje</small>
+            </div>
+            <div class="form__input">
+              <input id="email" type="email" placeholder="Email Address" />
+              <img src="images/icon-error.svg" alt="icon-error">
+              <small class="warning">mensaje</small>
+            </div>
+            <div class="form__input">
+              <input id="password" type="password" placeholder="Password" />
+              <img src="images/icon-error.svg" alt="icon-error">
+              <small class="warning">mensaje</small>
+            </div>
+            <button class="cta" type="submit">Claim your free trial</button>
+            <small class="form__text">By clicking the button, you are agreeing to our
+              <a class="form__text-m">Terms and Services</a>
+            </small>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+  </html>
+  
